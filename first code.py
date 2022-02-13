@@ -1,6 +1,6 @@
 #Saydullayev Fayzullo
 #02.13.2022
-#birinchi dastur.
+#first code
 
 print("Hello World!")
 
