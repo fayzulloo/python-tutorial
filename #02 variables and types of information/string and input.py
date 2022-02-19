@@ -33,6 +33,20 @@ print(name.lower()) #lower() matndagi barcha harflarni kichik harfga aylantiradi
 full_name = full_name.lower()
 print('\n' + full_name)
 
+text = "\n     Hello    "
+print(text)
+
+print(text + "World!")
+
+print(text.lstrip()) #lstrip() matnning chap tomonidagi bo'shliqni olib tashlaydi
+print(text.rstrip() + " World!") #rstrip() matnning o'ng tomonidagi bo'shliqni olib tashlaydi
+print(text.strip() + " World!\n")
+
+#input
+ism = input("Ismingiz nima ")
+print("salom " + ism)
+
+######################################################################################
 #Saydullayev Fayzullo
 #02/16/2022
 #string and input
@@ -44,7 +58,7 @@ tuman = "Olmazor"
 viloyat = "Toshkent"
 
 print(kocha + " ko'chasi, " + mahalla + " mahallasi, " + tuman + " tumani, " + viloyat + " shahri")
-####################################################################
+
 
 kocha = input("ko'changiz - ")
 mahalla = input("mahallangiz - ")
@@ -63,15 +77,3 @@ print(yangi_manzil.capitalize())
 print(full_name.title()) #title() matndagi har bir so'zning birinchi harfini katta harfga aylantiradi
 print(full_name.capitalize()) #capitalize() matndagi birinchi so'zning birinchi harfini katta harfga aylantiradi
 
-text = "\n     Hello    "
-print(text)
-
-print(text + "World!")
-
-print(text.lstrip()) #lstrip() matnning chap tomonidagi bo'shliqni olib tashlaydi
-print(text.rstrip() + " World!") #rstrip() matnning o'ng tomonidagi bo'shliqni olib tashlaydi
-print(text.strip() + " World!\n")
-
-#input
-ism = input("Ismingiz nima ")
-print("salom " + ism)
