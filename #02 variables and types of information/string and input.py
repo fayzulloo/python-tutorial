@@ -33,6 +33,33 @@ print(name.lower()) #lower() matndagi barcha harflarni kichik harfga aylantiradi
 full_name = full_name.lower()
 print('\n' + full_name)
 
+#Saydullayev Fayzullo
+#02/16/2022
+#string and input
+#Home Work
+
+kocha = "Bog'bon"
+mahalla = "Sag'bon"
+tuman = "Olmazor"
+viloyat = "Toshkent"
+
+print(kocha + " ko'chasi, " + mahalla + " mahallasi, " + tuman + " tumani, " + viloyat + " shahri")
+####################################################################
+
+kocha = input("ko'changiz - ")
+mahalla = input("mahallangiz - ")
+tuman = input("tumaningiz - ")
+viloyat = input("viloyatingiz - ")
+
+print("\n" + kocha.title() + " ko'chasi,\n" + mahalla.title() + " mahallasi,\n" + tuman.title() + " tumani,\n" + viloyat.title() + " shahri.\n")
+
+yangi_manzil = f"{kocha} ko'chasi, {mahalla} mahallasi, {tuman} tumani, {viloyat} viloyati."
+
+print(yangi_manzil.upper())
+print(yangi_manzil.lower())
+print(yangi_manzil.title())
+print(yangi_manzil.capitalize())
+
 print(full_name.title()) #title() matndagi har bir so'zning birinchi harfini katta harfga aylantiradi
 print(full_name.capitalize()) #capitalize() matndagi birinchi so'zning birinchi harfini katta harfga aylantiradi
 
